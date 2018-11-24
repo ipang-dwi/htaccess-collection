@@ -6,7 +6,7 @@ htaccess collection for each different purposes - www.firstplato.com
 
 was tested and used on :
 - CPanel based shared hosting, OS CloudLinux, RHEL and Centos x64
-- Cyberpanle based VPS, OS Centos x64
+- Cyberpanel based VPS, OS Centos x64
 
 Feel free to reach me on :
 - https://www.firstplato.com
