@@ -1,0 +1,9 @@
+RewriteEngine On
+# turn on the mod_rewrite engine
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+# IF the request filename with .php extension is a file which exists
+RewriteCond %{REQUEST_URI} !/$
+# AND the request is not for a directory
+RewriteRule (.*) $1\\.php [L]
+# redirect to the php script with the requested filename
